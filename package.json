@@ -4,13 +4,13 @@
   "description": "Timezone-safe, zero-dependency TypeScript utilities for date-only parsing, validation, calendar arithmetic, and formatting.",
   "author": "Ajit Kumar",
   "license": "MIT",
-  "homepage": "https://github.com/ajitdev01/daysafe#readme",
+  "homepage": "https://daysafe.ajitdev.com/playground",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajitdev01/daysafe.git"
+    "url": "git+https://github.com/ajitdev01/daysafe-.git"
   },
   "bugs": {
-    "url": "https://github.com/ajitdev01/daysafe/issues"
+    "url": "https://github.com/ajitdev01/daysafe-/issues"
   },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
