@@ -1,4 +1,4 @@
-name: Publish to NPM
+name: Publish DaySafe to NPM
 
 on:
   release:
@@ -10,22 +10,23 @@ permissions:
 
 jobs:
   publish:
-    name: Publish Package
+    name: Build, Test and Publish
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20.x
-          registry-url: "https://registry.npmjs.org"
+          node-version: 20
+          registry-url: https://registry.npmjs.org
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Verify types
+      - name: Run typecheck
         run: npm run typecheck
 
       - name: Run test suite
@@ -34,8 +35,5 @@ jobs:
       - name: Build package
         run: npm run build
 
-      - name: Publish to NPM
+      - name: Publish package
         run: npm publish --access public --provenance
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-

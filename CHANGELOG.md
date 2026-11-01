@@ -5,6 +5,15 @@ All notable changes to the `daysafe` library will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2026-11-02
+
+### Changed
+
+- Enhanced and modernized `README.md` with top-level installation commands for `npm`, `yarn`, `pnpm`, and `bun`.
+- Added direct links to the live interactive playground at [https://daysafe.ajitdev.com/playground](https://daysafe.ajitdev.com/playground) in docs and package metadata.
+- Updated repository URLs and quick-access links.
+- Configured secure NPM Trusted Publishing with provenance via GitHub Actions OIDC.
+
 ## [1.0.0] - 2026-11-02
 
 ### Added

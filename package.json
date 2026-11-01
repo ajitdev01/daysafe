@@ -1,6 +1,6 @@
 {
   "name": "daysafe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Timezone-safe, zero-dependency TypeScript utilities for date-only parsing, validation, calendar arithmetic, and formatting.",
   "author": "Ajit Kumar",
   "license": "MIT",
