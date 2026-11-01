@@ -1,0 +1,65 @@
+{
+  "name": "daysafe",
+  "version": "1.0.0",
+  "description": "Timezone-safe, zero-dependency TypeScript utilities for date-only parsing, validation, calendar arithmetic, and formatting.",
+  "author": "Ajit Kumar",
+  "license": "MIT",
+  "homepage": "https://github.com/ajitdev01/daysafe#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajitdev01/daysafe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ajitdev01/daysafe/issues"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "date",
+    "date-only",
+    "date-utils",
+    "calendar",
+    "calendar-utils",
+    "timezone-safe",
+    "typescript",
+    "javascript",
+    "date-validation",
+    "date-arithmetic",
+    "lightweight",
+    "zero-dependencies"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.7"
+  }
+}
