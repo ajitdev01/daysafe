@@ -7,10 +7,10 @@
   "homepage": "https://daysafe.ajitdev.com/playground",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajitdev01/daysafe-.git"
+    "url": "git+https://github.com/ajitdev01/daysafe.git"
   },
   "bugs": {
-    "url": "https://github.com/ajitdev01/daysafe-/issues"
+    "url": "https://github.com/ajitdev01/daysafe/issues"
   },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

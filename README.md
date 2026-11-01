@@ -7,8 +7,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Strict-3178c6.svg?style=flat-square)](https://www.typescriptlang.org/)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-0-success.svg?style=flat-square)](https://www.npmjs.com/package/daysafe)
-[![Tests Passing](https://img.shields.io/badge/tests-123%20passed-brightgreen.svg?style=flat-square)](https://github.com/ajitdev01/daysafe-)
-[![CI](https://github.com/ajitdev01/daysafe-/actions/workflows/ci.yml/badge.svg?style=flat-square)](https://github.com/ajitdev01/daysafe-/actions)
+[![Tests Passing](https://img.shields.io/badge/tests-123%20passed-brightgreen.svg?style=flat-square)](https://github.com/ajitdev01/daysafe)
+[![CI](https://github.com/ajitdev01/daysafe/actions/workflows/ci.yml/badge.svg?style=flat-square)](https://github.com/ajitdev01/daysafe/actions)
 
 ---
 
@@ -16,7 +16,7 @@
 
 - 🎮 **[Interactive Playground](https://daysafe.ajitdev.com/playground)** — Test live in your browser without installing!
 - 📦 **[NPM Package](https://www.npmjs.com/package/daysafe)** — Package details & release history
-- 🐙 **[GitHub Repository](https://github.com/ajitdev01/daysafe-)** — Source code, issues & discussions
+- 🐙 **[GitHub Repository](https://github.com/ajitdev01/daysafe)** — Source code, issues & discussions
 
 ---
 
@@ -706,8 +706,8 @@ DaySafe initializes formatting at **UTC Noon (`12:00:00 UTC`)** via `.setUTCFull
 
 ```bash
 # Clone the repository
-git clone https://github.com/ajitdev01/daysafe-.git
-cd daysafe-
+git clone https://github.com/ajitdev01/daysafe.git
+cd daysafe
 
 # Install development dependencies
 npm install
@@ -800,7 +800,7 @@ daysafe/
 
 Contributions are welcome! To contribute:
 
-1. Fork the repository on GitHub: [https://github.com/ajitdev01/daysafe-](https://github.com/ajitdev01/daysafe-)
+1. Fork the repository on GitHub: [https://github.com/ajitdev01/daysafe](https://github.com/ajitdev01/daysafe)
 2. Create a feature branch: `git checkout -b feature/my-feature`
 3. Install dependencies: `npm install`
 4. Add your changes with comprehensive Vitest tests.
